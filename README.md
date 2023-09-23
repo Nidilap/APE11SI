@@ -3,7 +3,11 @@ Repositório criado para a APE 11 do curso de Sistemas de informação
 
 ## 1. O que e o Git?
 
+O git é um sistema de controle de versão distribuido. Ele funciona através de cópias locais do repositório na máquina, permitindo o trabalho offline ou remoto. Os desenvolvedores "commitam" o seu trabalho localmente (criando uma versão local) e depois, quando necessário, sincronizam a sua cópia com a cópia que se encontra no servidor. Isso faz com que o controle de versão seja centralizado e que o código tenha que ser sincronizado para lançamento de novas versões.
+A flexibilidade do git é muito boa e após entender o básico, fica muito fácil de usar, por isso, é muito usado no mercado e até em meios acadêmicos.
+
 ## 2. O que é versionamento de software?
+O versionamento de software é o processo de atribuir versões (através de nomes ou números) únicos para cada iteração de um software. Essas versões são geralmente separadas em categorias, como versões "major", "minors" ou apenas "patches" (correções), de acordo com o que foi adicionado de novo na versão. O versionamento serve também para manter um histórico das versões do software, facilitando para voltar a versões anteriores ou ver quando certa mudança foi feita. Atualmente, maior parte do mercado usa ferramentas como o Git e Mercurial para fazer esse versionamento.
 
 ## 3. Por que utilizar o Git como controle de versionamento?
 
