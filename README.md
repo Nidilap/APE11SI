@@ -13,7 +13,8 @@ O versionamento de software é o processo de atribuir versões (através de nome
 Atualmente, a ferramenta mais usada para controle de versionamento é o git. Por ser um sistema de versionamento distribuido, evita muitos problemas de outros sistemas que não usam essa abordagem como conflitos de versões e travas que impedem o desenvolvimento rápido. Além de ser amplamente usado, também é de fácil uso, permitindo um rápido aprendizado. O git é suportado por diversos softwares como o GitHub, que usa git para armazenar repositórios na nuvem e é gratuito para repositórios pequenos, sendo ótimo como primeira interação com a ferramenta. Além disso, há alguns outros softwares que são mais focados no empresarial, como o GitLab, que permite criar um sistema de git em um servidor próprio.
 
 ## 4. Quais as vantagens do Git?
-
+O Git é distribuido e evita diversos problemas com sistemas que não usam essa abordagem, sendo fácil de resolver conflitos entre as diferentes versões através de "merges" e não tendo problemas com "travas" de arquivos.
+Além disto, é um sistema muito versátil, podendo ser usado para projetos de diversos tamanhos (tanto pessoais como grandes projetos empresariais). É de fácil aprendizado e fácil compreensão para os seus sistemas de "branchs" (galhos, ou ramificações do projeto) e "merging" (que ocorre quando há conflito entre os arquivos ao dar um push ao servidor). Tem também um histórico facilitado das versões do projeto, permitindo versionamento, tags e logs do histórico.
 ## 5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
 
 ## 6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
