@@ -39,6 +39,56 @@
 
     <div class="d-flex justify-content-center flex-column align-items-center">
         <h1 class="tituloPag">COM FLOW</h1>
+        <table class="table tabelaPrincipal">
+            <thead>
+                <tr>
+                    <th scope="col">Comando</th>
+                    <th scope="col">O que faz</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>git flow init</td>
+                    <td>Comando obrigatório para começar a usar o git flow no projeto. Ao executar esse comando, você precisará responder algumas perguntas relacionadas a branch e estrutura do projeto.</td>
+                </tr>
+                <tr>
+                    <td>git flow feature start</td>
+                    <td>Cria uma nova feature (implementação). Isso faz com que seja criada uma nova branch para desenvolvimento.</td>
+                </tr>
+                <tr>
+                    <td>git flow feature finish</td>
+                    <td>Finaliza o desenvolvimento da feature e mescla com a branch principal, deletando a branch da feature.</td>
+                </tr>
+                <tr>
+                    <td>git flow feature publish</td>
+                    <td>Publica a funcionalidade para o repositório central</td>
+                </tr>
+                <tr>
+                    <td>git flow feature pull</td>
+                    <td>Obtem uma funcionalidade do repositório central.</td>
+                </tr>
+                <tr>
+                    <td>git flow release start</td>
+                    <td>Cria uma nova versão.</td>
+                </tr>
+                <tr>
+                    <td>git flow release publish</td>
+                    <td>Publica uma nova versão para o repositório central.</td>
+                </tr>
+                <tr>
+                    <td>git flow release finish</td>
+                    <td>Finaliza a nova versão.</td>
+                </tr>
+                <tr>
+                    <td>git flow hotfix start</td>
+                    <td>Cria um novo hotfix (uma correção no sistema).</td>
+                </tr>
+                <tr>
+                    <td>git flow hotfix finish</td>
+                    <td>Da um merge em develop e na master do hotfix.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 
