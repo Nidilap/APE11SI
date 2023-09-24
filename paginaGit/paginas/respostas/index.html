@@ -44,13 +44,23 @@
                 <li class="pergunta">
                     Para que serve o commit e qual a melhor forma de utilizá-lo?
                 </li>
-                <p> Resposta</p>
+                <p> O commit serve para salvar as mudanças feitas no repositório local em uma nova versão. <br/>
+                    Eles salvam a versão do código e deixam guardada de forma segura. <br/>
+                    Após salvar essa versão, o código ainda não é mandado para o servidor, sendo necessário executar o "push" para enviá-las.<br/>
+                    É recomendado que a cada nova mudança seja feito um commit, visto que salvam os códigos de forma segura.<br/>
+                    Antes de realizar o commit, é necessário adicionar os arquivos que seram "commitados" através do comando git add.<br/>
+                    Com isso, é possível "commitar" apenas as mudanças que deseja ou separar arquivos alterados em diversos commits de acordo com a necessidade.</p>
             </ul>
             <ul>
                 <li class="pergunta">
                     Qual a diferença entre commit e push?
                 </li>
-                <p> Resposta</p>
+                <p> Enquanto que o commit serve para criar uma nova versão local do projeto, o push serve para enviar essas mudanças para o repositório central.<br/>
+                    Ao dar o push, muitas vezes é possível dar conflito, sendo necessário realizar um pull antes de fazer o push, para resolver possíveis conflitos.<br/>
+                    O push é feito usando o comando "git push".<br/>
+                    Pode receber alguns parâmetros, sendo o principal deles o repositório, que pode ser apenas origin, mandando para o repositório padrão.<br/>
+                    Além deste, o push também permite alguns parâmetros opcionais caso for necessário, como o --push-option, que permite várias opções, como o --force, que força o push mesmo que ocorra erro.
+                </p>
             </ul>
             <ul>
                 <li class="pergunta">
