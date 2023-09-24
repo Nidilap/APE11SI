@@ -16,3 +16,8 @@
 .tituloPag {
     margin-top: 20px;
 }
+
+.descricaoPag {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
