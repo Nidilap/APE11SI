@@ -66,19 +66,36 @@
                 <li class="pergunta">
                     O que é tag?
                 </li>
-                <p> Resposta</p>
+                <p> As tags são usadas para marcar pontos específicos do projeto como sendo importantes.<br/>
+                    Geralmente são usadas para lançamento de novas versões do software (chamadas de releases).<br/>
+                    No Git, são divididas em dois tipos: Leve e Anotada.<br/>
+                    A tag leve é muito parecida com uma branch que não muda, apontando basicamente para um commit específico.<br/>
+                    A anotada, por outro lado, são mais complexas e servem para armazenar completamente os objetos no banco de dados do Git.<br/>
+                    Possuem checksum, marcações de nome, email e data, além de ter detalhes sobre a tag em si.<br/>
+                    São recomendadas quando se tem todas as informações necessárias para a release.
+                </p>
             </ul>
             <ul>
                 <li class="pergunta">
                     O que é branch?
                 </li>
-                <p> Resposta</p>
+                <p> Vem do inglês e significa ramificação. COmo o nome diz, é basicamente uma ramificação do projeto, divergindo da linha principal de desenvolvimento sem alterá-la.<br/>
+                Em muita ferramentas de versionamento sem branches, é necessário criar uma nova cópia do repositório para fazer essas modificações.<br/>
+                No git, o sistema de ramificação é facilitado e é tido como seu "recurso matador", que mais diferencia de outros sistemas de controle de versão.<br/>
+                A branch é especialmente útil para tarefas "epics", tarefas muito grandes que demandam um tempo maior para desenvolvimento mas que não devem atrapalhar o fluxo normal do projeto (resolução de bugs e outros problemas).<br/>
+                Pode ser útil em alterações da base da estrutura ou algumas mudanças muito grandes na API do projeto, por exemplo.
+            </p>
             </ul>
             <ul>
                 <li class="pergunta">
                     Como resolver possíveis conflitos no Git?
                 </li>
-                <p> Resposta</p>
+                <p> Geralmente, ao dar um push das mudanças no repositório principal ou dar um merge de branch, maior parte dos arquivos serão mesclados sem nenhum conflito.<br/>
+                Porém, caso o mesmo arquivo tenha sido alterado, pode ocorrer o que é chamado de "merge conflict", ou conflito de mescla.
+                Quando isso ocorre, é necessário que você defina o que será mantido e o que será descartado (se o que está no repositório central é o certo ou se o que você fez é o certo).
+                Muitas vezes, não se descarta um ou outro, mas são feitos alguns filtros para manter o que é necessário das duas mudanças.
+                Ao ocorrer o conflito, são separados em duas partes dentro do arquivo, HEAD (repositório central) e a branch atual (ou o repositório local).
+                </p>
             </ul>
         </div>
     </div>
