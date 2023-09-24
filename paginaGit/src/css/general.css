@@ -25,3 +25,8 @@
 .pergunta {
     font-weight: 700;
 }
+
+.tabelaPrincipal {
+    max-width: 600px;
+    margin-top: 10px;
+}
