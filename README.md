@@ -1,5 +1,6 @@
 # APE11SI
-Repositório criado para a APE 11 do curso de Sistemas de informação
+Repositório criado para a APE 11 do curso de Sistemas de informação.
+Feito por Mateus Andre - 09022909
 
 ## 1. O que e o Git?
 
